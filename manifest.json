@@ -1,0 +1,40 @@
+{
+  "name": "YorkU Themes",
+  "description": "Themes for YorkU eClass",
+  "author": "Isaac Kogan",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "css": [
+        "styles/init.css"
+      ],
+      "js": [
+        "lib/jquery-3.6.4.min.js",
+        "src/index.js"
+      ],
+      "matches": [
+        "*://eclass.yorku.ca/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/styles/*"
+      ],
+      "matches": [
+        "*://eclass.yorku.ca/*"
+      ]
+    }
+  ],
+  "incognito": "split",
+  "permissions": [
+    "storage"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "*://eclass.yorku.ca/*"
+    ]
+  }
+}
