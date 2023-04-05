@@ -4,6 +4,9 @@
   "author": "Isaac Kogan",
   "manifest_version": 3,
   "version": "0.0.1",
+  "icons": {
+    "512": "public/images/logo.png"
+  },
   "content_scripts": [
     {
       "css": [
