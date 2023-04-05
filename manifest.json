@@ -1,6 +1,6 @@
 {
-  "name": "YorkU Themes",
-  "description": "Themes for YorkU eClass",
+  "name": "eClass Black",
+  "description": "Tailored dark theme for YorkU's eClass site",
   "author": "Isaac Kogan",
   "manifest_version": 3,
   "version": "0.0.1",

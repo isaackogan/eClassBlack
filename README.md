@@ -1,6 +1,6 @@
-YorkUDarkMode
+eClassBlack
 ==================
-A JavaScript library that overrides the YorkU Edyucate theme to provide a supported dark mode to eClass.
+A JavaScript library that overrides the YorkU Edyucate theme to provide a tailored dark mode for eClass.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/isaac-kogan-5a45b9193/ )
 ![Issues](https://img.shields.io/github/issues/isaackogan/YorkUDarkMode)
@@ -10,21 +10,17 @@ A JavaScript library that overrides the YorkU Edyucate theme to provide a suppor
 
 <!-- [![Downloads](https://pepy.tech/badge/tiktoklive)](https://pepy.tech/project/tiktoklive) -->
 
-A JavaScript library that overrides the YorkU Edyucate theme to provide a dark mode for eClass
-
-
-> **NOTE:**<br>Installed manually, this extension **will not** update automatically. If something does not work, make an "Issue", request the change, and I'll fix it. Then, you must re-install.
-
-## Table of Contents
-
-**Primary Information**
-
-- [Installation](#getting-started)
-- [Contributors](#contributors)
-- [License](#license)
-
+> **NOTE:**<br>Installed manually (the only way at the moment), this extension **will not** update automatically. If something does not work, make an "Issue", request the change, and I'll fix it. Then, you must re-install.
 
 ## Getting Started
+
+To install, follow the instructions in the [installation manual](#installation-manual), or the [video tutorial](#general-tutorial). Create an issue if you have a question:)
+
+### General Tutorial
+
+<img width=500 alt="Video Tutorial" src="https://i.imgur.com/ZmFumU3.jpg" />
+
+### Installation Manual
 
 1. Click `Code -> Download ZIP` to download the code. Move it to a folder and unzip the file into a folder. 
 
