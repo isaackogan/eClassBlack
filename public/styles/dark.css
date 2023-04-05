@@ -35522,6 +35522,27 @@ input#id_externalurl{
     margin-top:5px;
     display:inline-block
 }
+
+input[type='checkbox']:checked {
+    background-color: var(--dark1) !important;
+}
+
+input[type='checkbox']{
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    width: 12px !important;
+    height: 12px !important;
+    appearance:none;
+    border: 2px solid var(--light2);
+    background-color: var(--light2);
+    box-shadow: none;
+    font-size: 1em;
+}
+
 #adminsettings h3{
     display:block;
     width:100%;

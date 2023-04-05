@@ -4,8 +4,7 @@
 $(() => {
 
     // Change Icon
-    $("link[rel='shortcut icon']")
-        .attr("href", chrome.runtime.getURL("/public/images/favicon.ico"));
+   addCustomIcon();
 
     // Get body
     const body =  $("body");
@@ -27,8 +26,27 @@ $(() => {
     // Remove custom colours if course page
     cleanCustomCourseColours("#region-main");
     cleanCustomCourseColours(".gtopics");
+
+    // Add branding
+    addBranding();
 })
 
+
+function addBranding() {
+
+    const branding = $(
+        "<div>" +
+        "<a target='_blank' href='https://github.com/isaackogan/eClassBlack'>eClassBlack GitHub Page</a></div>"
+    );
+
+    branding.insertBefore($(".tool_usertours-resettourcontainer"))
+
+}
+
+function addCustomIcon() {
+    $("link[rel='shortcut icon']")
+        .attr("href", chrome.runtime.getURL("/public/images/favicon.ico"));
+}
 
 /**
  * Remove slideshow advertisement banner
