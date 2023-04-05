@@ -5303,7 +5303,7 @@ input[type='radio']:checked:after {
 }
 #page-mod-quiz-view table.quizattemptsummary tr.bestrow td{
     border-color:#bce8f1;
-    background-color:#d9edf7
+    background-color:transparent
 }
 table.quizattemptsummary .noreviewmessage{
     color:gray
@@ -5355,7 +5355,7 @@ table.quizattemptsummary .noreviewmessage{
 }
 body.path-mod-quiz .gradedattempt,body.path-mod-quiz table tbody tr.gradedattempt>td{
     border-color:#bce8f1;
-    background-color:#d9edf7
+    background-color:transparent
 }
 .quizattemptcounts{
     clear:left;
@@ -5419,7 +5419,7 @@ table.quizreviewsummary td.cell{
 }
 #page-mod-quiz-report .highlight{
     border:1px solid #bce8f1;
-    background-color:#d9edf7
+    background-color:transparent
 }
 #page-mod-quiz-report .negcovar{
     border:medium solid pink
@@ -10160,7 +10160,7 @@ div.block_mhaairs div.helplink{
     text-align:center
 }
 .block_xp-table tr.highlight-row>td{
-    background-color:#d9edf7!important
+    background-color:transparent!important
 }
 .block_xp-table td{
     vertical-align:middle!important
@@ -12603,7 +12603,7 @@ div#gridshadebox_overlay{
 }
 #gridshadebox_content{
     background:var(--dark1);
-    border:solid 2px #a71e38;
+    border:solid 2px var(--light1);
     min-height:200px
 }
 body.jsenabled #gridshadebox_content.hide_content{
@@ -14132,6 +14132,12 @@ div#trailmiddle-column>ul{
 .trailcursor div#trailshadebox_overlay{
     cursor:url(https://eclass.yorku.ca/theme/image.php/edyucate/format_trail/1675851206/fa-times-circle-o-f),auto
 }
+
+
+.fp-viewbar > .btn-secondary:active, .fp-viewbar > .btn-secondary:focus {
+    outline: 3px solid var(--light2);
+}
+
 div#trailshadebox_overlay{
     background:#000;
     height:500px;
@@ -14144,7 +14150,7 @@ div#trailshadebox_overlay{
 }
 #trailshadebox_content{
     background:var(--dark1);
-    border:solid 2px #a71e38;
+    border:solid 2px var(--light1);
     min-height:200px
 }
 body.jsenabled #trailshadebox_content.hide_content{
@@ -24075,7 +24081,6 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 }
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link{
     color:var(--dark1);
-    background-color:var(--light1)
 }
 .nav-fill>.nav-link,.nav-fill .nav-item{
     flex:1 1 auto;
@@ -30956,6 +30961,11 @@ input[disabled]{
 .ygtvcell .icon{
     margin-left:0!important
 }
+
+.ygtvfocus {
+    background-color: transparent !important;
+    opacity: 0.8;
+}
 .block_navigation .tree_item .icon,.block_settings .tree_item .icon{
     margin-left:0
 }
@@ -33395,9 +33405,7 @@ body.drawer-ease{
     margin-right:5px
 }
 .fp-viewbar:not(.disabled) a.checked{
-    background-color:#b1bbc4;
     color:var(--light1);
-    border-color:#aab4bf
 }
 .fp-viewbar.disabled a{
     pointer-events:none;
@@ -33410,11 +33418,18 @@ body.drawer-ease{
     display:none
 }
 .fp-pathbar .fp-path-folder{
-    background:url(https://eclass.yorku.ca/theme/image.php/edyucate/theme/1675851206/fp/path_folder) left 3px no-repeat;
+    background: url(https://eclass.yorku.ca/theme/image.php/edyucate/theme/1675851206/fp/path_folder) left 3px no-repeat;
+    filter: invert(1);
     background-size:12px 12px;
     height:12px;
     margin-left:12px
 }
+
+.fp-path-folder-name  {
+    filter: invert(1);
+    color: var(--light1);
+}
+
 .fp-pathbar .fp-path-folder-name{
     margin-left:24px
 }
@@ -33831,7 +33846,6 @@ a.ygtvspacer:hover{
     bottom:10px;
     left:10px;
     right:10px;
-    border:2px dashed #bbb;
     padding-top:85px;
     text-align:center
 }
